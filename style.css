@@ -239,7 +239,7 @@ button{
     width: 573px;
     height: 200px;
     padding: 20px;
-    position: absolute;
+    margin-left: 24rem;
     left: 30%;
     margin-top: 1rem;
     border-radius: 16px;
@@ -257,4 +257,104 @@ button{
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* ******************* Deals & Discounts****************** */
+.discount-title{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.discount-title h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discount-title p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.discounts-container-1{
+    margin-top: 2rem;
+    background-image: url("./Images/Group\ 39.png");
+    width: 1170px;
+    height: 500px;
+
+}
+
+.discounts-container-images{
+
+    width: 484px;
+    height: 337px;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 38%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(-30px);
+}
+
+.deals-img{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+
+.discount-img{
+    display: flex;
+}
+
+.discounts-container-discriptions h3{
+    color: #131318;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 1rem;
+}
+
+.discounts-container-discriptions p{
+    width: 452px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    padding: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+button{
+
+    margin-left: 10px;
+}
+/* container 2 */
+.discounts-container-2{
+    margin-top: 2rem;
+    background-image: url("./Images/Group\ 40.png");
+    width: 1170px;
+    height: 500px;
+
+}
+
+.discounts-container-images-2{
+
+    width: 484px;
+    height: 337px;
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 8%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(-30px);
+}
+.button-deals{
+    margin-top: 1rem;
+    text-align: center;
 }
