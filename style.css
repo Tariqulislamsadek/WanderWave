@@ -30,7 +30,7 @@ nav{
 nav >ul{
     display: flex;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 5px;
   
 }
 nav li{
@@ -62,6 +62,12 @@ span{
     
 }
 
+.banner-select{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+}
+
 .banner-container h1{
     color: #FFF;
     font-size: 4rem;
@@ -77,31 +83,24 @@ span{
     margin-bottom: 2rem;
 }
 
-.banner-select{
+.banner-select-container{
 
-  display: flex;
-  justify-content: space-evenly;
-  height: 52px;
-  
+    display: inline-flex;
+    padding: 10px;
+    margin-left: 12.5rem;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
 }
 
-.banner-select .banner-button{
+.banner-select-container input{
 
     width: 174px;
-height: 52px;
-
-border-radius: 8px;
-background: #FF5400;
-padding: 10px;
-
-color: #FFF;
-text-align: center;
-
-font-size: 16px;
-
-font-weight: 700;
+    height: 52px;
 
 }
+
 
 /* ***********************herp section styles************ */
 
@@ -162,14 +161,146 @@ button{
 
 
 
-.Choose-Destination-img{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 3.06rem;
-    position: relative;
+
+
+.Maldives{
+    background-image: url("./Images/Rectangle\ 5.png");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Maldives h3{
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 13rem;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.Indonesia{
+    background-image: url("/Images/Rectangle\ 8.png");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Indonesia h3{
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 13rem;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Srilanka{
+    background-image: url("/Images/Rectangle\ 6.png");
+    width: 100%;
+    height: 286px;
+    background-repeat: no-repeat;
 
 }
 
+.Srilanka h3{
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 9rem;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.North-America{
+    background-image: url("/Images/Rectangle\ 7.png");
+    width: 100%;
+    height: 286px;
+    background-repeat: no-repeat;
+
+}
+
+.North-America h3{
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 9rem;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+.Kashmir{
+    background-image: url("/Images/Rectangle\ 9.png");
+    width: 100%;
+    height: 286px;
+    background-repeat: no-repeat;
+}
+
+.Kashmir h3{
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 6rem;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Bangladesh{
+    background-image: url("/Images/Rectangle\ 11.png");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+.Bangladesh h3{
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 10rem;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Bandarban{
+    background-image: url("/Images/Rectangle\ 10.png");
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.Bandarban h3{
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 17rem;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.maldives-indonashia{
+    display: flex;
+    gap: 5px;
+
+}
+
+.sri-ameri-kashmir{
+
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.bangladesh-bandorban{
+    display: flex;
+    gap: 5px;
+    margin-top: 1rem;
+}
 /* **************Why Choose Us****************** */
 
 .choose-title h2{
@@ -357,4 +488,200 @@ button{
 .button-deals{
     margin-top: 1rem;
     text-align: center;
+}
+
+/* ***************Simple-Perfect-Place********** */
+
+.Simple-Perfect-Place{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.Simple-Perfect-Place-discription h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.Simple-Perfect-Place-discription p{
+    color: #424242;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.Simple-Perfect-Place-discription li{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.Simple-Perfect-Place-img{
+    background-image: url("./Images/Group\ 40089.png");
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    
+}
+.Simple-Perfect-Place-img h3{
+
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: 13rem;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* **************from section****** */
+.forme-section{
+    display: flex;
+    margin-top: 3rem;
+    gap: 10px;
+}
+
+.forme-description{
+
+    width: 474px;
+height: 422px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 1px solid #FF5400;
+padding: 1rem;
+
+}
+
+.forme-description h3{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+
+}
+.forme-description p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.form-hr{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-bottom: 2rem;
+    margin-left: 3%;
+}
+
+.form{
+    width: 400px;
+    /* background-color: rgba(233, 68, 68, 0.2); */
+    color: #fff;
+}
+
+.form .input-box{
+    width: 393px;
+    height: 52px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 30px 0;
+
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    
+}
+
+button .btn{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* ****************footer styles********* */
+footer{
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-top: 3rem;
+}
+
+.footer-header{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 24px;
+}
+
+.logo-text h3{
+    font-size: 32px;
+    font-weight: 800;
+
+}
+.footer-descriptions p{
+    text-align: center;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.footer-icon{
+    text-align: center;
+    margin-top: 10px;
+}
+
+hr{
+    width: 872px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-top: 10px;
+    justify-content: center;
+    margin-left: 15%;
+}
+
+.footer-text{
+
+    color: #131318;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 3rem;
+}
+
+
+
+
+
+
+/* **************responsive */
+
+@media screen and (max-width:600px) {
+
+    .nav-title{
+        display: flex;
+    }
+    .banner-area{
+        margin-left: 1px;
+        width: auto;
+    }
+    .banner-area h1{
+        font-size: 3rem;
+    font-weight: 800;
+    padding: 2px;
+    }
+    .banner-select-container{
+        padding: 0;
+        margin-left: 2.5rem;
+        border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    }
+    
 }
