@@ -197,7 +197,7 @@ button{
     font-weight: 700;
 }
 .Indonesia{
-    background-image: url("./Images/Rectangle\ 8.png");
+    background-image: url("./Images/indonashia.png");
     width: 100%;
     height: 300px;
     background-repeat: no-repeat;
@@ -214,7 +214,7 @@ button{
 }
 
 .Srilanka{
-    background-image: url("./Images/Rectangle\ 6.png");
+    background-image: url("./Images/srilanka.png");
     width: 100%;
     height: 286px;
     background-repeat: no-repeat;
@@ -232,7 +232,7 @@ button{
 }
 
 .North-America{
-    background-image: url("./Images/Rectangle\ 7.png");
+    background-image: url("./Images/northamerica.png");
     width: 100%;
     height: 286px;
     background-repeat: no-repeat;
@@ -249,7 +249,7 @@ button{
     font-weight: 700;
 }
 .Kashmir{
-    background-image: url("./Images/Rectangle\ 9.png");
+    background-image:url('./Images/kashmir.png');
     width: 100%;
     height: 286px;
     background-repeat: no-repeat;
@@ -266,7 +266,7 @@ button{
 }
 
 .Bangladesh{
-    background-image: url("./Images/Rectangle\ 11.png");
+    background-image: url("./Images/bangladesh.png");
     width: 100%;
     height: 300px;
     background-repeat: no-repeat;
@@ -282,7 +282,7 @@ button{
 }
 
 .Bandarban{
-    background-image: url("./Images/Rectangle\ 10.png");
+    background-image: url("./Images/bandorban.png");
     width: 100%;
     height: 300px;
     background-repeat: no-repeat;
