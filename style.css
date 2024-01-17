@@ -43,6 +43,9 @@ nav li{
     list-style: none;
    
 }
+ul .icon{
+    display: none;
+}
 nav li a{
     text-decoration: none;
 }
@@ -64,8 +67,8 @@ span{
 
 .banner-select{
     width: 174px;
-height: 52px;
-flex-shrink: 0;
+    height: 52px;
+
 }
 
 .banner-container h1{
@@ -94,11 +97,24 @@ flex-shrink: 0;
     background: rgba(255, 255, 255, 0.30);
 }
 
-.banner-select-container input{
-
-    width: 174px;
+.warpper{
+    display: flex;
+    width: 768px;
     height: 52px;
-
+    margin-left: 12.5rem;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+}
+.input-box input, .input-box img{
+    display: flex;
+}
+.input-box .arrow{
+    
+    position: absolute;
+    margin-left: 104px;
+    margin-top: -38px;
 }
 
 
@@ -137,7 +153,8 @@ button{
 /* *************Main sections styles************ */
 .Main-section{
 
-    padding: 4rem;
+   width: 80%;
+   margin: auto;
 
 }
 
@@ -525,6 +542,15 @@ button{
     border-radius: 16px;
     
 }
+.Simple-Perfect-Place-discription {
+    width: 50%;
+    margin-right: 2%;
+}
+.place-video-section {
+    position: relative;
+    width: 50%;
+    margin-right: 2%;
+}
 .Simple-Perfect-Place-img h3{
 
     position: absolute;
@@ -534,6 +560,36 @@ button{
     color: #fff;
     font-size: 24px;
     font-weight: 700;
+}
+
+.place-video-section {
+    position: relative;
+}
+
+.right-icons {
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+}
+.left-icons {
+    left: 10px;
+    color: #fff;
+    bottom: 25px;
+    position: absolute;
+}
+span.video-line {
+    position: absolute;
+    border-bottom: 2px solid #FFF;
+    width: 100%;
+    bottom: 17px;
+}
+.video-icons img {
+    width: 15px;
+    margin-right: 5px;
+}
+.video-icons span {
+    color: #FFF;
+    font-size: 14px;
 }
 
 /* **************from section****** */
@@ -601,7 +657,25 @@ button .btn{
     height: 100%;
 }
 
+.travel-form-img {
+    position: relative;
+}
+.travel-text h1, .travel-text h3 {
+    text-align: center;
 
+}
+.travel-text {
+    background-color: #FF5400;
+    color: #FFF;
+    text-decoration: currentColor;
+    border-radius: 5px;
+    padding: 15px;
+    width: 200px;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    right: 7px;
+    bottom: 70px;
+}
 
 
 
@@ -637,6 +711,10 @@ footer{
     text-align: center;
     margin-top: 10px;
 }
+.footer-img{
+    text-align: center;
+    margin-left: 37rem;
+}
 
 hr{
     width: 872px;
@@ -663,25 +741,93 @@ hr{
 
 /* **************responsive */
 
-@media screen and (max-width:600px) {
+.mobile-only {
+    display: none;
+}
 
+@media screen and (max-width:600px) {
+    .hero-section, .forme-section, .Simple-Perfect-Place, .choose-container, .maldives-indonashia, .sri-ameri-kashmir, .bangladesh-bandorban {
+        flex-direction: column;
+    }
+    .hero-section img, .maldives-indonashia img, .sri-ameri-kashmir img, .bangladesh-bandorban img {
+       width: 100%;
+    }
+    .Simple-Perfect-Place-discription, .place-video-section {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .Simple-Perfect-Place-img h3 {
+        margin-left: 5%;
+    }
+    img {
+        max-width: 100%;
+    }
+    header {
+        padding: 1rem;
+    }
+    .mobile-only {
+        display: block;
+    }
     .nav-title{
         display: flex;
+        color: #131318;
+       font-size: 22px;
+       font-weight: 800
     }
+    ul li{
+        display: none;
+    }
+
+    ul .icon{
+        display: block;
+    }
+    .choose-container-3 {
+         margin-left: 0;
+         width: inherit;
+         height: inherit;
+    }
+    .discounts-container-images, .discounts-container-images-2 {
+        width: inherit;
+        height: inherit;
+        margin-top: inherit;
+        position: inherit;
+        margin-left: inherit;
+        
+
+      }
     .banner-area{
-        margin-left: 1px;
+        margin-left: 0px;
         width: auto;
     }
     .banner-area h1{
-        font-size: 3rem;
-    font-weight: 800;
-    padding: 2px;
+        font-size: 2rem;
+       font-weight: 800;
+      padding: 2px;
     }
-    .banner-select-container{
-        padding: 0;
-        margin-left: 2.5rem;
-        border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
+    .warpper {
+        flex-direction: column;
+        width: 200px;
+        height: auto;
+        margin-left: 50%;
+      }
+    .input-box input, .input-box img{
+        display: flex;
     }
-    
+    .input-box .arrow{
+        
+        position: absolute;
+        margin-left: 104px;
+        margin-top: -21px;
+    }
+    .forme-description {
+        width: 100%;
+        height: auto;
+    }
+    .travel-text h1, .travel-text h3 {
+        font-size: 13px;
+        font-weight: normal;
+      }
+    .travel-text {
+
+    }
 }
